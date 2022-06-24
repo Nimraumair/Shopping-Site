@@ -1,76 +1,111 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login</title>
-    <link rel="stylesheet" href="./CSS/style3.css">
-    
+    <title>Account page</title>
+    <link rel="stylesheet" href="./CSS/style6.css">
 
 </head>
 <body>
- <!-- <center>
-    <form action="http//:www.redstore.gr"> 
-    <table class="col-2" >
-    <tr >
-    <td  class="container"align="center"> Login Here</td>
-</tr> 
-    
-    <tr>
-
-        <td> Username: </td>
-           <td><input type="text" name="user"></td>
-    </label>
-    </tr>
-    <tr>
-        <td>
-          Password:
-        </td>
-        <td>
-           <input   type="password"  name="User-pass"> 
-        </td>
-    </tr>
-    <td>
-        <input type="submit"  name="submit" value="Login" />  
-    </td>
-    <td>
-        Not yet a Memeber? <a  href="Registration.html"> Register </a>
-    </td> 
-    <tr>
-    <td>
-        <a style="color: black;" href="shopping store.html"  >Back to Home Page
-        </a>
-    </td>
-</tr> 
-</table>
-
-</form>
-
- </center>  -->
- 
-<div class="main">
-<div class="registration">
-    <h2>Login Here    </h2>
-    <form  action="success.html" id="register" method="post "> 
-        <label for="">Username:</label>
-        <br>
-               <input  type="text" name="name" id="name" placeholder="Enter Username">
-        <br><br>
-        <label>Password:</label> <br>
-<input type="password" name="password" id="name"  placeholder="Enter Your password" > 
-<br><br>
-<input type="submit" value="submit"  name="submit" id="submit"  >
-<br>
-Not yet a Memeber? <a style="color: black"  href="Registration.html"> Register </a>
-
-    </form>
-
-</div> <br>
-<a  href="shopping .html"> Back to Home Page  </a> 
- 
+<div class="header">
+   <div class="container">
+    <div class="navbar">
+        <div class="logo">
+           <img class="redstore" src="./image/logo.png" width="125px"  >
+        </div>
+        <nav>
+           <ul>
+              <li> <a href="shopping .html"> Home  </a>  </li>
+              <li> <a href="Product.html"> Products  </a>  </li>
+              <li> <a href="login.html"> Login   </a>  </li>
+              <li> <a href="Registration.html"> Registration  </a>  </li>
+              <li> <a href="Contact.html"> Contact  </a>  </li> 
+           </ul>
+        </nav>
+        <img   src="./image/cart.png" width="30px" height="30px">
+        </div>
 
 </div>
+</div>
+<!---------account-page------>
+<div class="account-page">
+      <div class="container"> 
+              <div class="row">
+                  <div class="col-2">
+                     <img src="./image/image1.png" width="50%">
+                  </div>
+                  <div class="col-2">
+                     <div class="form-container">
+                        <div class="form-btn">
+                           <h2>Login Here</h2>
 
+                        </div>
+                                <form action="./success.html"> 
+                                 <label for="">Username:</label>
+                                 <br> <br>
+                                        <input  type="text" name="name" id="name" placeholder="Enter Username">
+                                 <br><br>
+                                 <label>Password:</label> <br> <br>
+                           <input type="password" name="password" id="name"  placeholder="Enter Your password" > 
+                           <br><br>
+                           <input type="submit" value="submit"  name="submit" id="submit"  class="btn">
+                           <br>
+                           Not yet a Memeber? <a style="color: black"  href="Registration.html"> Register </a>
+
+
+
+                                </form>
+
+                     </div>
+                  </div>
+              </div>
+
+       </div>
+</div>
+
+    <!---footer--->
+<div class="footer">
+    <div class="container">
+       <div class="row">
+          <div class="footer-col-1">
+             <h3>Download Our App</h3>
+             <p>Download App for Andriod and ios mobile phone.</p>
+             <div class="app-logo">
+                <img src="./image/play-store.png">
+                <img src="./image/app-store.png">
+ 
+             </div>
+ 
+         </div>
+             <div class="footer-col-2">
+                <img src="./image/logo-white.png"    >
+                <p>Our Purpose is to Sustainably Make te Pleasure and <br>Benefits of Our Products Accessible to Many</p>
+                </div>
+                <div class="footer-col-3">
+                   <h3>useful links</h3>
+                   <ul>
+                      <li> Coupons</li>
+                      <li>Blog Post</li>
+                      <li> Return Policy</li>
+                      <li> Join Affiliates</li>
+                   </ul> 
+               </div>
+               <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                   <li> Facebook</li>
+                   <li>Tweeter</li>
+                   <li> Instragram</li>
+                   <li> YouTube</li>
+                </ul> 
+             </div>
+       </div>
+       <hr>
+       <p class="copyright">Copyright-2020</p>
+    </div> 
+ </div>
 </body>
 </html>

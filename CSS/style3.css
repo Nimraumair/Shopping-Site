@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(248, 232, 214);
+    background: radial-gradient(#fff , #ffd6d6) ;
 
     background-size: 280%;
     background-position: -400px 0[x];
@@ -11,7 +11,9 @@ body{
 .main{
      width: 400px;
      margin: 50px auto 0px auto;
+padding-bottom: 230px;
 }
+
 h2{
     text-align: center;
     padding: 20px;
@@ -80,7 +82,6 @@ a:hover{
 }
 h3{
     font-family: sans-serif;
-    font-style: italic;
     font-weight: 150;
 }
 p{
@@ -88,3 +89,119 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+
+
+.navbar{
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+/*--------footer------*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.heading{
+    
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 30px 0;
+}
+.footer-col-1, .footer-col-2 , .footer-col-3 , .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+    margin-bottom: 50px;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+    margin-top: -155px;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+    
+}  
+
+.footer-col-3  {
+float: right;   
+ text-align: center;
+ margin-top: -130px;
+
+    } 
+.footer-col-4{
+    float: right;
+    margin-top: -130px;
+ text-align: center;
+padding-right: 300px;
+}
+
+.copyright{
+    text-align: center;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer h3{
+    color: #ddd;
+    font-weight: 100px;
+}
+
+
+
+
+
+
+
+
+
